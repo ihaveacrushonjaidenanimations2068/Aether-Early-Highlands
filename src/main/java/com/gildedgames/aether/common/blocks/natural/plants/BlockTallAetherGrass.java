@@ -1,6 +1,8 @@
 package com.gildedgames.aether.common.blocks.natural.plants;
 
 import net.minecraft.block.Block;
+import com.gildedgames.aether.common.blocks.BlocksAether;
+import com.gildedgames.aether.common.blocks.natural.BlockAetherGrass;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.PropertyInteger;
@@ -43,7 +45,7 @@ public class BlockTallAetherGrass extends BlockAetherPlant implements IShearable
 
 		int type = NORMAL;
 
-		/*if (block == BlocksAether.aether_grass.getStateFromMeta(BlockAetherGrass.ENCHANTED_AETHER_GRASS.getMeta()))
+		if (block == BlocksAether.aether_grass.getStateFromMeta(BlockAetherGrass.ENCHANTED_AETHER_GRASS.getMeta()))
 		{
 			type = ENCHANTED;
 		}
@@ -56,7 +58,7 @@ public class BlockTallAetherGrass extends BlockAetherPlant implements IShearable
 		if (block == BlocksAether.aether_grass.getStateFromMeta(BlockAetherGrass.BLIGHTED.getMeta()))
 		{
 			type = BLIGHTED;
-		}*/
+		}
 
 		return state.withProperty(TYPE, type);
 	}
