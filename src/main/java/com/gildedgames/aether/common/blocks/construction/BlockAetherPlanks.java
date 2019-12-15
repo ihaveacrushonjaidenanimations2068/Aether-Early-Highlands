@@ -36,7 +36,7 @@ public class BlockAetherPlanks extends Block implements IBlockVariants
 		this.setHardness(2.0f);
 		this.setResistance(5.0f);
 
-		this.setDefaultState(this.getBlockState().getBaseState().withProperty(PROPERTY_VARIANT, SKYROOT));
+		this.setDefaultState(this.getBlockState().getBaseState().withProperty(PROPERTY_VARIANT, SKYROOT, BLIGHTWILLOW, EARTHSHIFTER, FROSTPINE));
 	}
 
 	@Override
