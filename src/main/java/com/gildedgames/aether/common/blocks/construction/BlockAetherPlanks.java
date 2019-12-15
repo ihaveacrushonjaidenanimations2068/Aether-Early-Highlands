@@ -25,7 +25,7 @@ public class BlockAetherPlanks extends Block implements IBlockVariants
 			EARTHSHIFTER = new BlockVariant(2, "earthshifter"),
 			FROSTPINE = new BlockVariant(3, "frostpine");
 
-	public static final PropertyVariant PROPERTY_VARIANT = PropertyVariant.create("variant", SKYROOT);
+	public static final PropertyVariant PROPERTY_VARIANT = PropertyVariant.create("variant", SKYROOT, BLIGHTWILLOW, EARTHSHIFTER, FROSTPINE);
 
 	public BlockAetherPlanks()
 	{
@@ -36,7 +36,7 @@ public class BlockAetherPlanks extends Block implements IBlockVariants
 		this.setHardness(2.0f);
 		this.setResistance(5.0f);
 
-		this.setDefaultState(this.getBlockState().getBaseState().withProperty(PROPERTY_VARIANT, SKYROOT, BLIGHTWILLOW, EARTHSHIFTER, FROSTPINE));
+		this.setDefaultState(this.getBlockState().getBaseState().withProperty(PROPERTY_VARIANT, SKYROOT));
 	}
 
 	@Override
