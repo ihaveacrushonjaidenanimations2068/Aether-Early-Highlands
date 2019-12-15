@@ -619,9 +619,9 @@ public class ItemsAether
 
 		registerItem("skyroot_door_item", skyroot_door.setCreativeTab(CreativeTabsAether.BLOCKS));
 		registerItem("arkenium_door_item", arkenium_door.setCreativeTab(CreativeTabsAether.BLOCKS));
-		//registerItem("blightwillow_door_item", blightwillow_door_item.setCreativeTab(CreativeTabsAether.BLOCKS));
-		//registerItem("earthshifter_door_item", earthshifter_door_item.setCreativeTab(CreativeTabsAether.BLOCKS));
-		//registerItem("frostpine_door_item", frostpine_door_item.setCreativeTab(CreativeTabsAether.BLOCKS));
+		registerItem("blightwillow_door_item", blightwillow_door.setCreativeTab(CreativeTabsAether.BLOCKS));
+		registerItem("earthshifter_door_item", earthshifter_door.setCreativeTab(CreativeTabsAether.BLOCKS));
+		registerItem("frostpine_door_item", frostpine_door.setCreativeTab(CreativeTabsAether.BLOCKS));
 
 		registerItem("iron_ring", iron_ring.setMaxStackSize(1).setCreativeTab(CreativeTabsAether.RINGS));
 		registerItem("gold_ring", gold_ring.setMaxStackSize(1).setCreativeTab(CreativeTabsAether.RINGS));
