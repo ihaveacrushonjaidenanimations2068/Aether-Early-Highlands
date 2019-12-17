@@ -1,9 +1,10 @@
 # Aether Blocks
 tile.aether.aether_dirt.dirt.name=Aether Dirt
+tile.aether.aether_dirt.coarse_dirt.name=Coarse Aether Dirt
 tile.aether.aether_dirt.permafrost.name=Permafrost
 tile.aether.aether_grass.normal.name=Aether Grass
 tile.aether.aether_grass.enchanted.name=Enchanted Aether Grass
-tile.aether.aether_grass.frostroot.name=Frostroot
+tile.aether.aether_grass.frostroot.name=Frostroot Block
 tile.aether.aether_grass.blighted.name=Blighted Aether Grass
 tile.aether.frostpine_leaves.name=Frostpine Leaves
 tile.aether.holystone.normal.name=Holystone

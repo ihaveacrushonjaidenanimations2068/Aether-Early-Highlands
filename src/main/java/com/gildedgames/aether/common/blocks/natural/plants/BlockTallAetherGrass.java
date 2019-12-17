@@ -41,7 +41,7 @@ public class BlockTallAetherGrass extends BlockAetherPlant implements IShearable
 
 	public IBlockState getActualState(IBlockState state, IBlockAccess worldIn, BlockPos pos)
 	{
-		//IBlockState block = worldIn.getBlockState(pos.down());
+		IBlockState block = worldIn.getBlockState(pos.down());
 
 		int type = NORMAL;
 
