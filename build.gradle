@@ -43,9 +43,9 @@ sourceSets {
 	}
 }
 
-dependencies {
+/*dependencies {
 	compile project(":gilded-games-util")
-}
+}*/
 
 jar {
 	from sourceSets.api.output
