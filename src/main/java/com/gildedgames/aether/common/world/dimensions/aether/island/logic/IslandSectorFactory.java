@@ -32,7 +32,7 @@ public class IslandSectorFactory
 
 			Rectangle bounds = new Rectangle(x, y, width, height);
 
-			IslandData islandData = new IslandData(bounds, 10, 100 + rand.nextInt(20), BiomesAether.HIGHLANDS);
+			IslandData islandData = new IslandData(bounds, 10, 100 + rand.nextInt(20), BiomesAether.FROSTPINE);
 
 			data[i] = islandData;
 		}

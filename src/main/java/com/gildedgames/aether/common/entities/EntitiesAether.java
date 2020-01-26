@@ -57,8 +57,8 @@ public class EntitiesAether
 		registerLivingEntity(EntitySwet.class, "swet", 0xCCFFFF, 0xCCCCFF);
 		//registerLivingEntity(EntityTaegore.class, "taegore", 0x607075, 0xbda54a);
 		registerLivingEntity(EntityDetonationSentry.class, "detonation_sentry", 0x414141, 0x4e9af7);
-		registerLivingEntity(EntityBattleSentry.class, "battle_sentry", 0x414141, 0x4e9af7);
-		registerLivingEntity(EntityTrackingSentry.class, "tracking_sentry", 0x414141, 0x4e9af7);
+		registerLivingEntity(EntityBattleSentry.class, "battle_sentry", 0x414141, 0x5cff33);
+		registerLivingEntity(EntityTrackingSentry.class, "tracking_sentry", 0x414141, 0xff0000);
 		registerLivingEntity(EntityChestMimic.class, "chest_mimic", 0x414141, 0x4e9af7);
 		registerLivingEntity(EntityBattleGolem.class, "battle_golem", 0x414141, 0x4e9af7);
 		registerLivingEntity(EntitySentryGuardian.class, "sentry_guardian", 0x414141, 0x4e9af7);

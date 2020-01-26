@@ -37,6 +37,12 @@ public class TemplatesAether
 
 	public static Template mysterious_henge;
 
+    public static Template oak1, oak2, oak3, oak4, oak5, oak6, pine1, pine2;
+	
+	public static Template blighted_tree;
+	
+	public static Template willow1;
+	
 	private TemplatesAether()
 	{
 
@@ -100,6 +106,19 @@ public class TemplatesAether
 		end_portal = register("end_portal");
 
 		mysterious_henge = register("mysterious_henge");
+		
+		oak1 = register("frostpine/oak1");
+	    oak2 = register("frostpine/oak2");
+		oak3 = register("frostpine/oak3");
+		oak4 = register("frostpine/oak4");
+        oak5 = register("frostpine/oak5");
+		oak6 = register("frostpine/oak6");
+		pine1 = register("frostpine/pine1");
+		pine2 = register("frostpine/pine2");
+		
+		blighted_tree = register("blighted_highlands/blighted_tree");
+		willow1 = register("blighted_highlands/willow1");
+		
 	}
 
 	private static Template register(String resource)

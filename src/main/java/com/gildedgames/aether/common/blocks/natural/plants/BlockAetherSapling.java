@@ -117,7 +117,19 @@ public class BlockAetherSapling extends BlockAetherPlant implements IGrowable, I
 			{
 				tree = GenerationAether.dark_blue_skyroot_oak;
 			}
-
+            else if  (meta == FROSTPINE.getMeta())
+			{
+			    tree = GenerationAether.frostpine_tree;
+			}
+			else if  (meta == BLIGHTED.getMeta())
+			{
+                tree = GenerationAether.blighted_tree;				 
+			}
+			else if  (meta == BLIGHTWILLOW.getMeta())
+			{	
+			    tree = GenerationAether.blightwillow_tree;
+		    }	
+			
 			if (tree != null)
 			{
 				world.setBlockState(pos, Blocks.AIR.getDefaultState(), 4);

@@ -9,6 +9,7 @@ import com.gildedgames.aether.common.world.dimensions.aether.biomes.BiomeAetherB
 import com.gildedgames.aether.common.world.dimensions.aether.features.WorldGenAetherFlowers;
 import com.gildedgames.aether.common.world.dimensions.aether.features.WorldGenTemplate;
 import com.gildedgames.aether.common.world.gen.TemplatePipeline;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.gen.structure.template.TemplateManager;
 
 public class BiomeFrostpine extends BiomeAetherBase
@@ -37,8 +38,8 @@ public class BiomeFrostpine extends BiomeAetherBase
 	{
 		if (world instanceof WorldServer)
 		{
-			WorldServer worldServer = (WorldServer)world;
-			MinecraftServer server = worldServer.getMinecraftServer();
+			//WorldServer worldServer = (WorldServer)world;
+			//MinecraftServer server = worldServer.getMinecraftServer();
 
 			this.tree1 = new WorldGenTemplate(this.templatePipeline, MANAGER.getTemplate(server, new ResourceLocation(AetherCore.MOD_ID, "frostpine/oak1")), new FlatGroundPlacementCondition(), new ReplaceablePlacementCondition());
 			this.tree2 = new WorldGenTemplate(this.templatePipeline, MANAGER.getTemplate(server, new ResourceLocation(AetherCore.MOD_ID, "frostpine/oak2")), new FlatGroundPlacementCondition(), new ReplaceablePlacementCondition());

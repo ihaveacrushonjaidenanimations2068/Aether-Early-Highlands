@@ -52,6 +52,16 @@ public class GenerationAether
 	public static WorldGenAetherTallGrass aether_grass;
 
 	public static WorldGenAercloud green_aercloud, golden_aercloud, storm_aercloud;
+	
+	public static WorldGenTemplate oak1, oak2, oak3, oak4, oak5, oak6, pine1, pine2;
+	
+	public static WorldGenTemplateGroup frostpine_tree;
+	
+	public static WorldGenTemplate blighted_tree;
+	
+	public static WorldGenTemplate willow1;
+	
+	public static WorldGenTemplateGroup blightwillow_tree;
 
 	private GenerationAether()
 	{
@@ -141,7 +151,19 @@ public class GenerationAether
 		aether_portal = new WorldGenTemplate(TemplatesAether.aether_portal, TemplateConditions.REPLACEABLE);
 		nether_portal = new WorldGenTemplate(TemplatesAether.nether_portal, TemplateConditions.REPLACEABLE);
 		end_portal = new WorldGenTemplate(TemplatesAether.end_portal, TemplateConditions.REPLACEABLE);
-
+		
+        oak1 = new WorldGenTemplate(TemplatesAether.oak1, TemplateConditions.FLAT_GROUND, TemplateConditions.REPLACEABLE);
+		oak2 = new WorldGenTemplate(TemplatesAether.oak2, TemplateConditions.FLAT_GROUND, TemplateConditions.REPLACEABLE);
+		oak3 = new WorldGenTemplate(TemplatesAether.oak3, TemplateConditions.FLAT_GROUND, TemplateConditions.REPLACEABLE);
+		oak4 = new WorldGenTemplate(TemplatesAether.oak4, TemplateConditions.FLAT_GROUND, TemplateConditions.REPLACEABLE);
+		oak5 = new WorldGenTemplate(TemplatesAether.oak5, TemplateConditions.FLAT_GROUND, TemplateConditions.REPLACEABLE);
+        oak6 = new WorldGenTemplate(TemplatesAether.oak6, TemplateConditions.FLAT_GROUND, TemplateConditions.REPLACEABLE);
+		pine1 = new WorldGenTemplate(TemplatesAether.pine1, TemplateConditions.FLAT_GROUND, TemplateConditions.REPLACEABLE);
+		pine2 = new WorldGenTemplate(TemplatesAether.pine2, TemplateConditions.FLAT_GROUND, TemplateConditions.REPLACEABLE);
+		
+		blighted_tree = new WorldGenTemplate(TemplatesAether.blighted_tree, TemplateConditions.FLAT_GROUND);
+		willow1 = new WorldGenTemplate(TemplatesAether.willow1, TemplateConditions.FLAT_GROUND);
+		
 		aether_portal_for_world = new WorldGenTemplate(TemplatesAether.aether_portal, TemplateConditions.FLAT_GROUND, TemplateConditions.IGNORE_QUICKSOIL, TemplateConditions.REPLACEABLE);
 
 		mysterious_henge = new WorldGenTemplate(TemplatesAether.mysterious_henge, TemplateConditions.FLAT_GROUND, TemplateConditions.IGNORE_QUICKSOIL, TemplateConditions.REPLACEABLE);
@@ -158,6 +180,8 @@ public class GenerationAether
 		labyrinth_ruins = new WorldGenTemplateGroup(labyrinth_ruins_1, labyrinth_ruins_2, labyrinth_ruins_3, labyrinth_ruins_4, labyrinth_ruins_5);
 		skyroot_moa_nest = new WorldGenTemplateGroup(skyroot_moa_nest_1, skyroot_moa_nest_2);
 		labyrinth_entrance = new WorldGenTemplateGroup(labyrinth_entrance_1);
+        frostpine_tree = new WorldGenTemplateGroup(oak1, oak2, oak3, oak4, oak5, oak6, pine1, pine2);
+		blightwillow_tree = new WorldGenTemplateGroup(willow1);
 
 		aether_grass = new WorldGenAetherTallGrass();
 
